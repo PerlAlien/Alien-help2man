@@ -6,16 +6,18 @@ Build or find help2man
 
 In your script or module:
 
-    use Alien::help2man;
-    use Env qw( @PATH );
-    
-    unshift @ENV, Alien::help2man->bin_dir;
+```perl
+use Alien::help2man;
+use Env qw( @PATH );
+
+unshift @PATH, Alien::help2man->bin_dir;
+```
 
 # DESCRIPTION
 
-This distribution provides help2man so that it can be used by other 
-Perl distributions that are on CPAN.  It does this by first trying to 
-detect an existing install of help2man on your system.  If found it 
+This distribution provides help2man so that it can be used by other
+Perl distributions that are on CPAN.  It does this by first trying to
+detect an existing install of help2man on your system.  If found it
 will use that.  If it cannot be found, the source code will be downloaded
 from the internet and it will be installed in a private share location
 for the use of other modules.
