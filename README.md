@@ -24,7 +24,7 @@ for the use of other modules.
 
 # SEE ALSO
 
-[Alien](https://metacpan.org/pod/Alien), [Alien::Base](https://metacpan.org/pod/Alien%3A%3ABase), [Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien%3A%3ABuild%3A%3AManual%3A%3AAlienUser)
+[Alien](https://metacpan.org/pod/Alien), [Alien::Base](https://metacpan.org/pod/Alien::Base), [Alien::Build::Manual::AlienUser](https://metacpan.org/pod/Alien::Build::Manual::AlienUser)
 
 # AUTHOR
 
