@@ -4,7 +4,7 @@ probe sub { 'share' };
 
 share {
   plugin Download => (
-    url => 'ftp://ftp.gnu.org/gnu/help2man',
+    url => 'https://ftp.gnu.org/gnu/help2man',
     filter => qr/^help2man-.*\.tar\.gz$/,
     version => qr/([0-9\.]+)/,
   );
