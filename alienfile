@@ -1,6 +1,11 @@
 use alienfile;
 
-probe sub { 'share' };
+plugin 'Probe::CommandLine' => (
+  command => 'help2man',
+  args    => ['--version'],
+  match   => qr/GNU help2man/,
+  version => qr/GNU help2man (\S+)/,
+);
 
 share {
   plugin Download => (
