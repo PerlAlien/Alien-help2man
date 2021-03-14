@@ -1,4 +1,4 @@
-# Alien::help2man [![Build Status](https://travis-ci.org/PerlAlien/Alien-help2man.svg)](http://travis-ci.org/PerlAlien/Alien-help2man)
+# Alien::help2man ![linux](https://github.com/PerlAlien/Alien-help2man/workflows/linux/badge.svg)
 
 Build or find help2man
 
