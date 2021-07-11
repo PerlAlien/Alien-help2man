@@ -1,4 +1,4 @@
-# Alien::help2man ![linux](https://github.com/PerlAlien/Alien-help2man/workflows/linux/badge.svg)
+# Alien::help2man ![static](https://github.com/PerlAlien/Alien-help2man/workflows/static/badge.svg) ![linux](https://github.com/PerlAlien/Alien-help2man/workflows/linux/badge.svg)
 
 Build or find help2man
 
